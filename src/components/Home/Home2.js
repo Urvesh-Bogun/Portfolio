@@ -21,33 +21,20 @@ function Home2() {
             <p className="home-about-body">
               I'm a student studying at Royal Holloway, University of London
               <br />
-              <br />I am well experiences in languages like
+              <br />I am well experienced in languages like
               <i>
-                <b className="purple"> Python, Java and JavaScript. </b>
+                <b className="purple"> Python, Java, and JavaScript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are new &nbsp;
+              My fields of interest are in{" "}
               <i>
                 <b className="purple">Securing Hybrid Environments </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Fintech Solutions.
-                </b>
+                <b className="purple">Fintech Solutions.</b>
               </i>
               <br />
               <br />
-              <b className="purple">
-              <i>
-                <b className="purple">
-                  {" "}
-                  
-                </b>
-              </i>
-              &nbsp;
-              <i>
-                <b className="purple"></b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -68,11 +55,9 @@ function Home2() {
                   href="https://github.com/Urvesh-Bogun"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
                 </a>
               </li>
               <li className="social-icons">
@@ -80,11 +65,9 @@ function Home2() {
                   href="https://www.linkedin.com/in/urvesh-bogun-250454239/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
                 </a>
               </li>
             </ul>
@@ -94,4 +77,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
