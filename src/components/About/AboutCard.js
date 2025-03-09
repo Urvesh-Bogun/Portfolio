@@ -11,9 +11,10 @@ function AboutCard() {
             Hi! I am <span className="purple">Urvesh Bogun </span>
             from <span className="purple"> London, United Kingdom.</span>
             <br />
-            I am currently a student at Royal Holloway, University of London
+            I am currently a <span className="purple">student </span>
+            at Royal Holloway, University of London
             <br />
-            I am studying Computer Science with Information Security (MSci) 
+            I am studying <span className="purple">Computer Science with Information Security (MSci)</span> 
             <br />
             <br />
             Some other activities that I love to do are:
@@ -31,7 +32,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Security isn’t just code, it’s about protecting lives."{" "}
           </p>
           <footer className="blockquote-footer">Urvesh Bogun</footer>
         </blockquote>
