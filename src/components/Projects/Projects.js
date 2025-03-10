@@ -22,7 +22,7 @@ function Projects() {
             <ProjectCard
               imgPath={optionspricingicon}
               title="Computational Models to Calculate Option Prices"
-              description="Implemented Black Scholes, Trees and Monte Carlo to calculate option prices for American or European Calls and puts from given parameters"
+              description="Implemented Black-Scholes, Binomial Trees, and Monte Carlo models to calculate option prices for American and European calls and puts using parameters like stock price, strike price, time to maturity, risk-free rate, and volatility."
               ghLink="https://github.com/Urvesh-Bogun/FinancialComputationsForOptionPrices"
             />
           </Col>
@@ -46,7 +46,7 @@ function Projects() {
             <ProjectCard
               imgPath={catcoinicon}
               title="CatCoin Blockchain"
-              description="A simple Python implementation of a blockchain-like structure for managing transactions in a hypothetical cryptocurrency called CatCoin (CC)."
+              description="A Python implementation of a blockchain-like structure designed to manage transactions for a hypothetical cryptocurrency called CatCoin (CC). The system links blocks using cryptographic hashes, ensuring data integrity and security for transaction records."
               ghLink="https://github.com/Urvesh-Bogun/CatCoinBlockchain"
             />
           </Col>
