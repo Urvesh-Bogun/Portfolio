@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import optionpriceicon from "../../Assets/Projects/resized_optionpriceicon.png";
+import azurelogo from "../../Assets/Projects/resized_azurelogo.png";
 
 function Projects() {
   return (
@@ -23,7 +21,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={optionpriceicon}
               isBlog={false}
               title="Computational Models to Calculate Option Prices"
               description="Implemented Black Scholes, Trees and Monte Carlo to calculate option prices for American or European Calls and puts from given parameters"
@@ -34,7 +32,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={azurelogo}
               isBlog={false}
               title="Deploying a SIEM"
               description=" Created a Virtual Machine (VM) for SIEM monitoring and alerting. Configured Azure Log Analytics Workspace to collect logs from the VM. Implemented Microsoft Sentinel for monitoring and detection to threats. Set up custom alert rules in Sentinel to notify me on VM logins."
