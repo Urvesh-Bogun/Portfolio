@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import optionpriceicon from "../../Assets/Projects/resized_optionpriceicon.png";
 import azurelogo from "../../Assets/Projects/resized_azurelogo.png";
 
