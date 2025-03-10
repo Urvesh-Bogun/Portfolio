@@ -11,7 +11,6 @@ function CertificateCards(props) {
           {props.company}
         </p>
         <div style={{ textAlign: "left", marginTop: "10px" }}>
-          {/* Add "Skills:" heading */}
           <strong>Skills:</strong>
           <br />
           {props.description}
