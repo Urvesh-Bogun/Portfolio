@@ -1,27 +1,29 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { FaDownload } from "react-icons/fa";
+import { Button, Card } from "react-bootstrap";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function CertificateCards(props) {
   return (
-    <Card className="certificate-card-view mb-3"> 
-      {props.imgPath && (
-        <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      )}
+    <Card className="certificate-card-view mb-3">
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "center" }}>
+        <p style={{ color: "grey", fontSize: "0.9em", marginBottom: "10px" }}>
+          {props.company}
+        </p>
+        <div style={{ textAlign: "left", marginTop: "10px" }}>
           {props.description}
-        </Card.Text>
-        <Button
-          variant="primary"
-          href={props.downloadLink}
-          download
-          target="_blank"
-        >
-          <FaDownload /> &nbsp; Download Certificate
-        </Button>
+        </div>
+        <div style={{ textAlign: "center", marginTop: "10px" }}>
+          <Button
+            variant="primary"
+            href={props.downloadLink}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download Certificate
+          </Button>
+        </div>
       </Card.Body>
     </Card>
   );
