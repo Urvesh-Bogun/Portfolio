@@ -38,9 +38,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={Initials} className="img-fluid initials" alt="brand" />
-        </Navbar.Brand>
+        <Navbar.Initials href="/" className="d-flex">
+          <img src={Initials} className="img-fluid initials" alt="initials" />
+        </Navbar.Initials>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
