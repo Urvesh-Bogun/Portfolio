@@ -6,6 +6,7 @@ import Initials from "../Assets/Initials.png"
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import { FaCertificate } from "react-icons/fa";
 import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
@@ -98,7 +99,7 @@ function NavBar() {
                 to="/certification"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Certification
+                <FaCertificate style={{ marginBottom: "2px" }} /> Certification
               </Nav.Link>
             </Nav.Item>
 
