@@ -32,7 +32,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Security isn’t just code, it’s about protecting lives."{" "}
+            "Security isn’t just about data, it’s about protecting lives."{" "}
           </p>
           <footer className="blockquote-footer">Urvesh Bogun</footer>
         </blockquote>
