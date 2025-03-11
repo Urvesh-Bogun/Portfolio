@@ -10,7 +10,7 @@ function Type() {
           "Information Security",
           "Networking",
           "Software Development",
-          "Blockchain technology"
+          "Blockchain Technology"
         ],
         autoStart: true,
         loop: true,
