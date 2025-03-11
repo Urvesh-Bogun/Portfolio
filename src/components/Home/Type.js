@@ -9,8 +9,8 @@ function Type() {
           "Azure",
           "Information Security",
           "Networking",
-          "Programming",
-          "Blockchains"
+          "Coding",
+          "Blockchain technology"
         ],
         autoStart: true,
         loop: true,
