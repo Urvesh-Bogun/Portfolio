@@ -644,6 +644,7 @@ button:focus {
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -661,11 +662,30 @@ button:focus {
   padding-left: 1px !important;
 }
 
+
+.about-img {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+.about-img img {
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
+    padding-bottom: 20px !important;
   }
 }
+
+
 /* --------- */
 /* Resume */
 /* --------- */
