@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6991252e.css",
-    "main.js": "/Portfolio/static/js/main.d83b2134.js",
+    "main.css": "/Portfolio/static/css/main.5d2b80c0.css",
+    "main.js": "/Portfolio/static/js/main.9111e8a3.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/certificateExamPro.pdf": "/Portfolio/static/media/certificateExamPro.53676c69ba71501ee175.pdf",
@@ -14,16 +14,16 @@
     "static/media/Urvesh_Bogun_Tech.pdf": "/Portfolio/static/media/Urvesh_Bogun_Tech.c4f49c62ecb393371c38.pdf",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/resized_azurelogo.png": "/Portfolio/static/media/resized_azurelogo.52bcaad340bb4e32853a.png",
-    "static/media/avatar.svg": "/Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/avatar.svg": "/Portfolio/static/media/avatar.6147f4f4994751bf6c121b0702b960eb.svg",
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
-    "main.6991252e.css.map": "/Portfolio/static/css/main.6991252e.css.map",
-    "main.d83b2134.js.map": "/Portfolio/static/js/main.d83b2134.js.map",
+    "main.5d2b80c0.css.map": "/Portfolio/static/css/main.5d2b80c0.css.map",
+    "main.9111e8a3.js.map": "/Portfolio/static/js/main.9111e8a3.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6991252e.css",
-    "static/js/main.d83b2134.js"
+    "static/css/main.5d2b80c0.css",
+    "static/js/main.9111e8a3.js"
   ]
 }
