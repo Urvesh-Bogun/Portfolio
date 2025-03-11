@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5d2b80c0.css",
-    "main.js": "/Portfolio/static/js/main.9111e8a3.js",
+    "main.css": "/Portfolio/static/css/main.2a228735.css",
+    "main.js": "/Portfolio/static/js/main.6034b002.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/certificateExamPro.pdf": "/Portfolio/static/media/certificateExamPro.53676c69ba71501ee175.pdf",
     "static/media/certificateCiscoPacketTracer.pdf": "/Portfolio/static/media/certificateCiscoPacketTracer.f57aecbdc54be9251a35.pdf",
+    "static/media/about.png": "/Portfolio/static/media/about.3dfebd2c8a56e1099fc3.png",
     "static/media/certificateCCISC2.pdf": "/Portfolio/static/media/certificateCCISC2.e418179c5c866e336400.pdf",
     "static/media/OptionsPricingIcon.png": "/Portfolio/static/media/OptionsPricingIcon.b983606130c838afd9d9.png",
     "static/media/CatCoinIcon.png": "/Portfolio/static/media/CatCoinIcon.0d486792b063a371ccda.png",
-    "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.f2b26f5176a0fa5213aefb65268836ad.svg",
     "static/media/Urvesh_Bogun_Tech.pdf": "/Portfolio/static/media/Urvesh_Bogun_Tech.c4f49c62ecb393371c38.pdf",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/resized_azurelogo.png": "/Portfolio/static/media/resized_azurelogo.52bcaad340bb4e32853a.png",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.6147f4f4994751bf6c121b0702b960eb.svg",
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
-    "main.5d2b80c0.css.map": "/Portfolio/static/css/main.5d2b80c0.css.map",
-    "main.9111e8a3.js.map": "/Portfolio/static/js/main.9111e8a3.js.map",
+    "main.2a228735.css.map": "/Portfolio/static/css/main.2a228735.css.map",
+    "main.6034b002.js.map": "/Portfolio/static/js/main.6034b002.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d2b80c0.css",
-    "static/js/main.9111e8a3.js"
+    "static/css/main.2a228735.css",
+    "static/js/main.6034b002.js"
   ]
 }
