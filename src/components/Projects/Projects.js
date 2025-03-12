@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import optionspricingicon from "../../Assets/Projects/OptionsPricingIcon.png";
 import azurelogo from "../../Assets/Projects/resized_azurelogo.png";
 import catcoinicon from "../../Assets/Projects/CatCoinIcon.png";
+import ciscopackettracericon from "../../Assets/Projects/CiscoPacketTracerIcon.png";
+import petsuggestericon from "../../Assets/Projects/PetSuggesterIcon.png";
 
 function Projects() {
   return (
@@ -12,17 +14,22 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={optionspricingicon}
               title="Computational Models to Calculate Option Prices"
-              description="Implemented Black-Scholes, Binomial Trees, and Monte Carlo models to calculate option prices for American and European calls and puts using parameters like stock price, strike price, time to maturity, risk-free rate, and volatility."
+              description={
+                <>
+                  Implemented Black-Scholes, Binomial Trees, and Monte Carlo models in <strong className="purple">Python</strong> to calculate option prices for American and European calls and puts using parameters like stock price, strike price, time to maturity, risk-free rate, and volatility.
+                </>
+              }
               ghLink="https://github.com/Urvesh-Bogun/FinancialComputationsForOptionPrices"
             />
           </Col>
@@ -34,8 +41,8 @@ function Projects() {
               description={
                 <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
                   <li>Created a Virtual Machine (VM) for SIEM monitoring and alerting.</li>
-                  <li>Configured Azure Log Analytics Workspace to collect logs from the VM.</li>
-                  <li>Implemented Microsoft Sentinel for monitoring and detection of threats.</li>
+                  <li>Configured <strong className="purple">Azure</strong> Log Analytics Workspace to collect logs from the VM.</li>
+                  <li>Implemented <strong className="purple">Microsoft Sentinel</strong> for monitoring and detection of threats.</li>
                   <li>Set up custom alert rules in Sentinel to notify me on VM logins.</li>
                 </ul>
               }
@@ -46,10 +53,43 @@ function Projects() {
             <ProjectCard
               imgPath={catcoinicon}
               title="CatCoin Blockchain"
-              description="A Python implementation of a blockchain-like structure designed to manage transactions for a hypothetical cryptocurrency called CatCoin (CC). The system links blocks using cryptographic hashes, ensuring data integrity and security for transaction records."
+              description={
+                <>
+                  A <strong className="purple">Python</strong> implementation of a blockchain-like structure designed to manage transactions for a hypothetical cryptocurrency called CatCoin (CC). The system links blocks using cryptographic hashes, ensuring data integrity and security for transaction records.
+                </>
+              }
               ghLink="https://github.com/Urvesh-Bogun/CatCoinBlockchain"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ciscopackettracericon}
+              title="Home Network Design"
+              description={
+                <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
+                  <li>Implemented a network with a PC, laptop, router, and server.</li>
+                  <li>Configured DHCP, DNS, and a secure wireless network.</li>
+                  <li>Set up a <strong className="purple">Cisco</strong> server for IP allocation and domain resolution.</li>
+                  <li>Verified network integrity with command-line tests.</li>
+                </ul>
+              }
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={petsuggestericon}
+              title="Pet Suggester using Binary Tree"
+              description={
+                <>
+                  Developed a pet suggestion system in <strong className="purple">Java</strong> using a binary tree to ask the user yes/no questions and suggest pets based on their preferences. The tree is dynamically built, allowing users to introduce new pets and questions if they're unsatisfied with the current suggestions. The app also includes functionality to save and load the tree structure from a file for future use.
+                </>
+              }
+              ghLink="https://github.com/Urvesh-Bogun/pet-suggester"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
