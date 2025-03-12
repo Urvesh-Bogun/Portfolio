@@ -24,7 +24,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={optionspricingicon}
-              title="Computational Models to Calculate Option Prices"
+              title="Option Price Calculator"
               description={
                 <>
                   Implemented Black-Scholes, Binomial Trees, and Monte Carlo models in <strong className="purple">Python</strong> to calculate option prices for American and European calls and puts using parameters like stock price, strike price, time to maturity, risk-free rate, and volatility.
@@ -83,7 +83,7 @@ function Projects() {
               title="Pet Suggester using Binary Tree"
               description={
                 <>
-                  Developed a pet suggestion system in <strong className="purple">Java</strong> using a binary tree to ask the user yes/no questions and suggest pets based on their preferences. The tree is dynamically built, allowing users to introduce new pets and questions if they're unsatisfied with the current suggestions. The app also includes functionality to save and load the tree structure from a file for future use.
+                  Developed a pet suggestion system in <strong className="purple">Java</strong> using a binary tree to ask yes/no questions and suggest pets. Users can add new pets and questions, with functionality to save and load the tree structure.
                 </>
               }
               ghLink="https://github.com/Urvesh-Bogun/pet-suggester"
