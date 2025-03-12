@@ -19,7 +19,7 @@ import Initials from "../Assets/Initials.png";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const navigate = useNavigate(); // Hook to navigate programmatically
+  const navigate = useNavigate();
 
   function scrollHandler() {
     if (window.scrollY >= 20) {

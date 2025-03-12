@@ -9,6 +9,7 @@ import {
 import {
   SiFlask,
   SiPostgresql,
+  SiReact,
 } from "react-icons/si";
 
 function Techstack() {
@@ -38,6 +39,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact />
+      </Col>
+
     </Row>
   );
 }
