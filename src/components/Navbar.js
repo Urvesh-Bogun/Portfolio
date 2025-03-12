@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -18,6 +19,7 @@ import Initials from "../Assets/Initials.png";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const navigate = useNavigate(); // Hook to navigate programmatically
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -37,7 +39,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand className="d-flex">
+        <Navbar.Brand className="d-flex" onClick={() => navigate("/Portfolio")} style={{ cursor: "pointer" }}>
           <img src={Initials} className="img-fluid initials" alt="initials" />
         </Navbar.Brand>
         <Navbar.Toggle
