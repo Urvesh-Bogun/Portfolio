@@ -10,6 +10,7 @@ import {
   SiFlask,
   SiPostgresql,
   SiReact,
+  SiSolidity,
 } from "react-icons/si";
 
 function Techstack() {
@@ -42,6 +43,10 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <SiReact />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSolidity />
       </Col>
 
     </Row>
