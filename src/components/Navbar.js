@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
 import { FaCertificate } from "react-icons/fa";
 import {
   AiFillStar,
@@ -103,14 +103,13 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            <Nav.Item className="github-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Urvesh-Bogun"
                 target="_blank"
-                className="fork-btn-inner"
+                className="github-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <FaGithub style={{ fontSize: "1.5em" }} />{" "} 
               </Button>
             </Nav.Item>
           </Nav>
