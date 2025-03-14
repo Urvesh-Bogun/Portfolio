@@ -2,9 +2,9 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import CertificateCards from "./CertificateCards";
 import Particle from "../Particle";
-import certificateExamPro from "../../Assets/certificateExamPro.pdf";
-import certificateCCISC2 from "../../Assets/certificateCCISC2.pdf";
-import certificateCiscoPacketTracer from "../../Assets/certificateCiscoPacketTracer.pdf";
+import certificateExamPro from "../../Assets/Certificates/certificateExamPro.pdf";
+import certificateCCISC2 from "../../Assets/Certificates/certificateCCISC2.pdf";
+import certificateCiscoPacketTracer from "../../Assets/Certificates/certificateCiscoPacketTracer.pdf";
 
 function Certificates() {
   const certificatesData = [
