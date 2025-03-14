@@ -7,6 +7,7 @@ import azurelogo from "../../Assets/Projects/resized_azurelogo.png";
 import catcoinicon from "../../Assets/Projects/CatCoinIcon.png";
 import ciscopackettracericon from "../../Assets/Projects/CiscoPacketTracerIcon.png";
 import petsuggestericon from "../../Assets/Projects/PetSuggesterIcon.png";
+import automatedticketicon from "../../Assets/Projects/AutomatedTicketIcon.png";
 
 function Projects() {
   return (
@@ -26,9 +27,11 @@ function Projects() {
               imgPath={optionspricingicon}
               title="Option Price Calculator"
               description={
-                <>
-                  Implemented Black-Scholes, Binomial Trees, and Monte Carlo models in <strong className="purple">Python</strong> to calculate option prices for American and European calls and puts using parameters like stock price, strike price, time to maturity, risk-free rate, and volatility.
-                </>
+                <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
+                  <li>Implemented Black-Scholes, Binomial Trees, and Monte Carlo models in <strong className="purple">Python</strong>.</li>
+                  <li>Calculated option prices for American and European calls and puts.</li>
+                  <li>Used parameters like stock price, strike price, time to maturity, risk-free rate, and volatility.</li>
+                </ul>
               }
               ghLink="https://github.com/Urvesh-Bogun/FinancialComputationsForOptionPrices"
             />
@@ -54,9 +57,11 @@ function Projects() {
               imgPath={catcoinicon}
               title="CatCoin Blockchain"
               description={
-                <>
-                  A <strong className="purple">Python</strong> implementation of a blockchain-like structure designed to manage transactions for a hypothetical cryptocurrency called CatCoin (CC). The system links blocks using cryptographic hashes, ensuring data integrity and security for transaction records.
-                </>
+                <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
+                  <li>Developed a <strong className="purple">Python</strong> implementation of a blockchain-like structure.</li>
+                  <li>Managed transactions for a hypothetical cryptocurrency called CatCoin (CC).</li>
+                  <li>Linked blocks using cryptographic hashes to ensure data integrity and security.</li>
+                </ul>
               }
               ghLink="https://github.com/Urvesh-Bogun/CatCoinBlockchain"
             />
@@ -82,11 +87,28 @@ function Projects() {
               imgPath={petsuggestericon}
               title="Pet Suggester using Binary Tree"
               description={
-                <>
-                  Developed a pet suggestion system in <strong className="purple">Java</strong> using a binary tree to ask yes/no questions and suggest pets. Users can add new pets and questions, with functionality to save and load the tree structure.
-                </>
+                <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
+                  <li>Developed a pet suggestion system in <strong className="purple">Java</strong> using a binary tree.</li>
+                  <li>Asked yes/no questions to suggest pets based on user input.</li>
+                  <li>Added functionality to save and load the tree structure.</li>
+                </ul>
               }
               ghLink="https://github.com/Urvesh-Bogun/pet-suggester"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={automatedticketicon}
+              title="Automated Ticketing System"
+              description={
+                <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
+                  <li>Integrated <strong className="purple">Freshdesk</strong> and <strong className="purple">Slack</strong> APIs to automate ticket notifications.</li>
+                  <li>Developed a <strong className="purple">Python</strong> script to fetch and send ticket details.</li>
+                  <li>Deployed the solution on <strong className="purple">Heroku</strong> for continuous monitoring.</li>
+                </ul>
+              }
+              ghLink="https://github.com/Urvesh-Bogun/AutomatedTicketingSystem"
             />
           </Col>
 
