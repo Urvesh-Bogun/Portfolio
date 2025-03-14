@@ -11,6 +11,8 @@ import {
   SiPostgresql,
   SiReact,
   SiSolidity,
+  SiSlack,
+  SiHeroku,
 } from "react-icons/si";
 
 function Techstack() {
@@ -47,6 +49,14 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSlack />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHeroku />
       </Col>
 
     </Row>
