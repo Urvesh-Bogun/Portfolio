@@ -105,7 +105,7 @@ function Projects() {
                 <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
                   <li>Integrated <strong className="purple">Freshdesk</strong> and <strong className="purple">Slack</strong> APIs to automate ticket notifications.</li>
                   <li>Developed a <strong className="purple">Python</strong> script to fetch and send ticket details.</li>
-                  <li>Deployed the solution on <strong className="purple">Heroku</strong> for continuous monitoring.</li>
+                  <li>Deployed the solution on <strong className="purple">Heroku</strong> for the option of continuous monitoring.</li>
                 </ul>
               }
               ghLink="https://github.com/Urvesh-Bogun/AutomatedTicketingSystem"
