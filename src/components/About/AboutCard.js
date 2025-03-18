@@ -8,13 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi! I am <span className="purple">Urvesh Bogun </span>
-            from <span className="purple"> London, United Kingdom.</span>
+            Hi! I am <span className="purple">Urvesh Bogun </span>from  London, United Kingdom.
             <br />
-            I am currently a <span className="purple">student </span>
-            at Royal Holloway, University of London
+            I am currently a <span className="purple">Cybersecurity Analyst </span>at The Orbital Locker.
             <br />
-            I am studying <span className="purple">Computer Science with Information Security (MSci)</span> 
+            I am studying <span className="purple">Computer Science with Information Security(MSci)</span>.
+            <br />
+            I am studying at <span className="purple">Royal Holloway, University of London</span>. 
             <br />
             <br />
             Some other activities that I love to do are:

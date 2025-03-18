@@ -9,6 +9,7 @@ function Type() {
           "Azure",
           "Information Security",
           "Networking",
+          "AWS",
           "Software Development",
           "Blockchain Technology"
         ],
