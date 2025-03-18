@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiWindows,
   SiVisualstudiocode,
-  SiEclipseide,
+  SiAmazonaws,
   SiLinux,
   SiMicrosoftazure,
 } from "react-icons/si";
@@ -20,7 +20,7 @@ function Toolstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiEclipseide />
+        <SiAmazonaws />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
