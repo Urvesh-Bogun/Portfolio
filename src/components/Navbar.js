@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaCertificate } from "react-icons/fa";
+import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -90,6 +91,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <FaCertificate style={{ marginBottom: "2px" }} /> Certifications
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
+              >
+                <ImBlog style={{ marginBottom: "2px" }} /> Blog
               </Nav.Link>
             </Nav.Item>
 
