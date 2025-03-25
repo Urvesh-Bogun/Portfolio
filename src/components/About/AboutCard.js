@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi! I am <span className="purple">Urvesh Bogun </span>from  London, United Kingdom.
             <br />
-            I am currently a <span className="purple">Cybersecurity Analyst </span>at The Orbital Locker.
+            I am currently a <span className="purple">AWS SOC Analyst </span>at a space startup.
             <br />
             I am studying <span className="purple">Computer Science with Information Security(MSci)</span>.
             <br />

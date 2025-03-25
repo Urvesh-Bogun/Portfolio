@@ -51,14 +51,6 @@ function Techstack() {
         <SiSolidity />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
-
     </Row>
   );
 }
