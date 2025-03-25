@@ -5,9 +5,25 @@ import Particle from "../Particle";
 import certificateExamPro from "../../Assets/Certificates/certificateExamPro.pdf";
 import certificateCCISC2 from "../../Assets/Certificates/certificateCCISC2.pdf";
 import certificateCiscoPacketTracer from "../../Assets/Certificates/certificateCiscoPacketTracer.pdf";
+import certificateTata from "../../Assets/Certificates/certificateTata.pdf";
 
 function Certificates() {
   const certificatesData = [
+    {
+      imgPath: null,
+      title: " Cybersecurity	Analyst	Job	Simulation",
+      company: "Tata",
+      description: (
+        <ul style={{ textAlign: "left", marginLeft: "20px" }}>
+          <li>IAM Design</li>
+          <li>IAM Evaluation</li>
+          <li>Project Planning</li>
+          <li>Business Process Alignment</li>
+          <li>Business Process Analysis</li>
+        </ul>
+      ),
+      downloadLink: certificateTata,
+    },
     {
       imgPath: null,
       title: "Microsoft Security, Compliance, and Identity Fundamental",
