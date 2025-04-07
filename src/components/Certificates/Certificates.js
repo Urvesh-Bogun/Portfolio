@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import certificateExamPro from "../../Assets/Certificates/certificateExamPro.pdf";
 import certificateCCISC2 from "../../Assets/Certificates/certificateCCISC2.pdf";
 import certificateCiscoPacketTracer from "../../Assets/Certificates/certificateCiscoPacketTracer.pdf";
-import certificateTata from "../../Assets/Certificates/certificateTata.pdf";
+import certificateTata from "../../Assets/Certificates/CertificateTata.pdf";
 
 function Certificates() {
   const certificatesData = [
