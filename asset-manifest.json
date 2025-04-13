@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b5bafbf9.css",
-    "main.js": "/Portfolio/static/js/main.e2b842d1.js",
+    "main.js": "/Portfolio/static/js/main.7b9094f7.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/certificateExamPro.pdf": "/Portfolio/static/media/certificateExamPro.53676c69ba71501ee175.pdf",
     "static/media/certificateCiscoPacketTracer.pdf": "/Portfolio/static/media/certificateCiscoPacketTracer.f57aecbdc54be9251a35.pdf",
     "static/media/PetSuggesterIcon.png": "/Portfolio/static/media/PetSuggesterIcon.edd358b8c7b0c620c839.png",
+    "static/media/certificateAWSjobSim.pdf": "/Portfolio/static/media/certificateAWSjobSim.39f6096fccb376023cbe.pdf",
     "static/media/about.png": "/Portfolio/static/media/about.3dfebd2c8a56e1099fc3.png",
     "static/media/CiscoPacketTracerIcon.png": "/Portfolio/static/media/CiscoPacketTracerIcon.f2009d137af69f014eb7.png",
     "static/media/certificateCCISC2.pdf": "/Portfolio/static/media/certificateCCISC2.e418179c5c866e336400.pdf",
@@ -22,12 +23,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.b5bafbf9.css.map": "/Portfolio/static/css/main.b5bafbf9.css.map",
-    "main.e2b842d1.js.map": "/Portfolio/static/js/main.e2b842d1.js.map",
+    "main.7b9094f7.js.map": "/Portfolio/static/js/main.7b9094f7.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5bafbf9.css",
-    "static/js/main.e2b842d1.js"
+    "static/js/main.7b9094f7.js"
   ]
 }
