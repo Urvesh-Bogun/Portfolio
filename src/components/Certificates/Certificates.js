@@ -6,12 +6,29 @@ import certificateExamPro from "../../Assets/Certificates/certificateExamPro.pdf
 import certificateCCISC2 from "../../Assets/Certificates/certificateCCISC2.pdf";
 import certificateCiscoPacketTracer from "../../Assets/Certificates/certificateCiscoPacketTracer.pdf";
 import certificateTata from "../../Assets/Certificates/CertificateTata.pdf";
+import certificateAWSJobSim from "../../Assets/Certificates/certificateAWSjobSim.pdf";
 
 function Certificates() {
   const certificatesData = [
     {
       imgPath: null,
-      title: " Cybersecurity	Analyst	Job	Simulation",
+      title: " Solutions Architect Job Simulation",
+      company: "AWS",
+      description: (
+        <ul style={{ textAlign: "left", marginLeft: "20px" }}>
+          <li>Scalable Hosting Architecture Design (Elastic Beanstalk)</li>
+          <li>AWS Solution Planning</li>
+          <li>Cost Estimation and Optimization</li>
+          <li>Technical Communication and Documentation</li>
+          <li>Cloud Deployment Strategy</li>
+        </ul>
+      ),
+      downloadLink: certificateAWSJobSim,
+    },
+
+    {
+      imgPath: null,
+      title: " Cybersecurity Analyst Job Simulation",
       company: "Tata",
       description: (
         <ul style={{ textAlign: "left", marginLeft: "20px" }}>
